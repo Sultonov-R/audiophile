@@ -1,0 +1,46 @@
+.headphone_types {
+    display: flex;
+    gap: 80px;
+    margin-top: 100px;
+}
+
+.img-type img {
+    width: 500px;
+}
+
+.headphones_types_info {
+    display: flex;
+    width: 445px;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 40px;
+    padding-top: 80px;
+}
+
+.headphones_types_info h4 {
+    color: #D87D4A;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.12px;
+    letter-spacing: 10px;
+    text-align: left;
+
+}
+
+.headphones_types_info h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+.headphones_types_info p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #8D8D8D;
+}

@@ -1,0 +1,154 @@
+.modalU {
+    width: 540px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.modaLT {
+    text-align: center;
+}
+.done img{
+    width: 5    4px;
+}
+
+.modal_title h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1.1428571939468384px;
+    text-align: left;
+    margin-top: 15px;
+
+}
+
+.modal_items_info {
+    display: flex;
+    width: 100%;
+}
+
+.modal_info p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    opacity: 50%;
+    margin-top: 10px;
+
+}
+
+.modal_items {
+width: 100%;
+margin-top: 20px;
+}
+.detailed_info{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* align-items: center; */
+}
+
+.detailed_info img {
+    width: 50px;
+}
+
+.modal-price h4 {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+
+}
+
+.modal-price span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    opacity: 50%;
+}
+
+.detailed-modal {
+    background-color: #f1f1f1;
+    width: 55%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.detailed_info span {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: right;
+    opacity: 50%;
+
+}
+
+.detailed_info {
+    /* border-bottom: 1px solid lightgray; */
+    display: flex;
+}
+
+.other-items p {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.39px;
+    letter-spacing: -0.2142857164144516px;
+    text-align: left;
+    opacity: 50%;
+}
+
+.all-costs {
+    background-color: #000000;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.all-costs h4 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    opacity: 80%;
+}
+
+.all-costs span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.59px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.btn-back {
+    width: 100%;
+    background-color: #D87D4A;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17.76px;
+    letter-spacing: 1px;
+    text-align: center;
+    border: none;
+    padding: 15px 40px;
+    margin-top: 20px;
+    color:#FFFFFF;
+    cursor: pointer;
+}
+.btn-back:hover{
+    background-color: #FBAF85;
+    transition: all 0.4s;
+}

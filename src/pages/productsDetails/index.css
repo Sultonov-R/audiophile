@@ -1,0 +1,200 @@
+.back_span {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+.go_back {
+    position: absolute;
+    top: 150px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #bababa;
+}
+
+.img-type img {
+    width: 300px;
+}
+
+.go_back:hover {
+    color: #D87D4A;
+
+}
+
+.headphone_types {
+    display: flex;
+    gap: 80px;
+    margin-top: 100px;
+}
+
+.features-info {
+    display: flex;
+    /* gap: 50px; */
+    justify-content: space-between;
+}
+
+.features {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.features h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1.2px;
+    text-align: left;
+
+}
+
+.features p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    opacity: 50%;
+}
+
+.img-type img {
+    width: 500px;
+}
+
+.amountOfItem {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 35%;
+}
+
+.amountOfItem h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1.2px;
+    text-align: left;
+}
+
+.amountOfItem ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.amountOfItem ul li {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ul li span {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    color: #D87D4A;
+}
+
+ul li p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    opacity: 0.5;
+}
+
+.price-span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.59px;
+    letter-spacing: 1.3px;
+    text-align: left;
+
+}
+
+.amount-select {
+    display: flex;
+    gap: 20px;
+}
+
+.span-class {
+    background: #F1F1F1;
+    padding: 10px;
+    width: 120px;
+    display: flex;
+}
+
+.span-class span {
+    padding: 4px;
+    width: 33px;
+    cursor: pointer;
+}
+
+.btn-class {
+    width: 160px;
+    color: #F1F1F1;
+    background-color: #D87D4A;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-class:hover {
+    background-color: #FBAF85;
+    transition: all 0.3s;
+}
+
+.images-section {
+    margin-top: 150px;
+    display: flex;
+    gap: 15px;
+}
+
+.images-classes {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.images-classes img {
+    width: 445px;
+
+}
+
+.like-items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+
+.like-items h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1.1428571939468384px;
+  margin-top: 30px;
+}
+
+.items_new {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.other_items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+}

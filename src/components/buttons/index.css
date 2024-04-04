@@ -1,0 +1,28 @@
+.product-btn {
+    width: 160px;
+    color: #F1F1F1;
+    background-color: #D87D4A;
+    padding: 15px 30px;
+    border:none;
+    cursor: pointer;
+}
+
+.product-btn:hover {
+    background-color: #FBAF85;
+    transition: all 0.3s;
+}
+.product-btn_black{
+    background-color: #FAFAFA;
+    width: 160px;
+    padding: 15px 30px;
+    border:none;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.product-btn_black:hover{
+    background-color: #000000;
+    padding: 15px 30px;
+    border:none;
+    color: #F1F1F1;
+    transition: all 0.3s;
+}

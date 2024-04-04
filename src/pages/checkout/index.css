@@ -1,0 +1,228 @@
+.checkout {
+    background-color: #F1F1F1;
+    /* height: 100vh; */
+}
+
+.checkout-class {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 15px;
+}
+
+.checkout-section {
+    width: 70%;
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.checkout-section h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1.1428571939468384px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.input_check {
+    width: 100%;
+}
+
+.input_check h3 {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #D87D4A;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+
+}
+
+.formClass {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.label_input {
+    display: flex;
+    flex-direction: column;
+}
+
+.label_input input {
+    width: 310px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+}
+
+.label_input input:focus {
+    border: 1px solid #D87D4A;
+}
+
+.label_input label {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.39px;
+    letter-spacing: -0.2142857164144516px;
+    text-align: left;
+
+}
+
+.addressLabel {
+    width: 100%;
+}
+
+.addressLabel input {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+}
+
+.payment-section {
+    margin-top: 30px;
+}
+
+.payment-section h3 {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #D87D4A;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.payment-method {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.payment-method p {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.39px;
+    letter-spacing: -0.2142857164144516px;
+    text-align: left;
+
+}
+
+.payment-method div {
+    width: 50%;
+}
+
+.radio-input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.summary-section {
+    background-color: #ffffff;
+    width: 30%;
+    border-radius: 10px;
+    height: 70%;
+}
+
+.summary-section h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.59px;
+    letter-spacing: 1.2857142686843872px;
+    text-align: left;
+
+}
+
+.summary-class {
+    padding: 40px 30px;
+}
+
+
+.item-sold {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.items-class {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.items-class p {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+
+}
+
+.items-class span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    opacity: 40%;
+}
+
+.price-total h3 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    opacity: 50%;
+}
+
+.price-total span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.59px;
+    text-align: right;
+
+}
+.overall-price{
+    color:#D87D4A;
+}
+
+.price-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pay-btn {
+    width: 100%;
+    padding: 15px 20px;
+    margin-top: 30px;
+    border: none;
+    background-color: #D87D4A;
+    color: #F1F1F1;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17.76px;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+
+.pay-btn:hover {
+    background-color: #FBAF85;
+    transition: all 0.3s;
+}
